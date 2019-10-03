@@ -1,7 +1,7 @@
 package config
 
 type Config struct {
-	Versions Versions `json:"versions"`
+	Versions Versions `toml:"versions"`
 }
 
 type Versions map[string]bool
